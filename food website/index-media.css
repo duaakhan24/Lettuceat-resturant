@@ -1,0 +1,550 @@
+@media screen and (max-width: 1400px) {
+     /* about  */
+  .about-right {
+    width: 30rem;
+  }
+  .about-pera {
+    margin-top: 0rem;
+ 
+    gap: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    width: 90%;
+ 
+  }
+  .about-btn{
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+  }
+
+    /* offer  */
+    .big-hed{
+      font-size: 3.7rem;
+    }   
+    .all-pera{
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+    .cards {
+      width: 23rem;
+    }
+    .card-hed{
+      font-size: 1.6rem;
+    }
+    .card-pera{
+      font-size: 1.1rem;
+    }
+
+    /* menu  */
+
+    .food-item {
+      /* border: 2px solid black; */
+      width: 32rem;
+      /* height: 10rem; */
+      display: flex;
+      gap: 1rem;
+    }
+
+    /* news  */
+
+    .n-cards {
+      width: 23rem;
+    }
+
+    /* gallery  */
+    .images {
+     width: 23rem;
+    }
+
+
+    /* contact  */
+    .info img{
+      width: 90%;
+    }
+    .adres-main{
+      width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+  /* home  */
+  header{
+    padding: 0 1rem;
+    box-sizing: border-box;
+    
+  }
+  nav{
+     justify-content: space-between;
+  }
+
+  .home-hed{
+    font-size: 4.5rem;
+  }
+  .home-pera{
+    font-size: 1.2rem;
+  }
+  .home-btn{
+    padding: 0.8rem 2rem;
+  }
+
+
+  /* about  */
+  .about-hed{
+    font-size: 3rem;
+
+  }
+  .pri-hed{
+    letter-spacing: 2px;
+  }
+  .about-pera{
+    margin-top: 1rem;
+    gap: 2px;
+  }
+
+  
+    /* offer  */
+   
+    .cards {
+      width: 18rem;
+    }
+    .card-rate{
+      font-size: 1.1rem;
+    }
+    .card-hed{
+      font-size: 1.6rem;
+    }
+    .card-pera{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+    .card-btn{
+      padding: 0.6rem 1rem;
+    }
+
+
+    
+    /* menu  */
+
+    .food-item {
+      /* border: 2px solid black; */
+      width: 26rem;
+      /* height: 10rem; */
+      display: flex;
+      gap: 1rem;
+    }
+    .f-item-hed{
+      font-size: 1.4rem;
+    }
+    .f-item-pera{
+      line-height: 1.5rem;
+    }
+    .f-item-rate{
+      font-size: 1.5rem;
+    }
+    .food-item img {
+      width: 7rem;
+      height: 7rem;
+    }
+    /* news  */
+
+    .n-cards {
+      width: 18rem;
+    }
+    /* gallery */
+    .images {
+      width: 18rem;
+     }
+     /* contact  */
+     .contact-btn{
+      padding: 0.7rem 2rem;
+     }
+
+     /* footer  */
+
+     .foot-1{
+      width: 23rem;
+     }
+
+}
+
+@media screen and (max-width: 1000px) {
+  /* home  */
+  nav ul{
+    gap: 1rem;
+  }
+   /* about  */
+   .about-hed{
+    font-size: 3rem;
+
+  }
+  .pri-hed{
+    letter-spacing: 2px;
+  }
+  .about-pera{
+    margin-top: 1rem;
+    gap: 2px;
+    font-size: 1rem;
+  }
+  .pera-1,.pera-2{
+    width: 100%;
+  }
+  /* contact  */
+  .contact-form{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    gap: 0rem;
+    /* height: 40rem; */
+   }
+
+  form{
+    width: 60%;
+  }
+  /* footer  */
+  .footer-flex{
+    gap: 10px;
+  }
+  .foot-hed{
+    font-size: 1.1rem;
+  }
+  .foot-pera{
+    font-size: 1rem;
+  }
+  .link-anch{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about,.news,.contact,.gallery,.menu,.offer{
+    padding: 5rem 0;
+  }
+  /* home  */
+  .home-hed{
+    font-size: 3.5rem;
+  }
+  .home-pera{
+    font-size: 1.1rem;
+  }
+  /* about  */
+  .about-right{
+    width: 22rem;
+  }
+
+  /* offer  */
+  .pri-hed{
+    font-size: 1.1rem;
+  }
+  .big-hed{
+    font-size: 2.8rem;
+  }
+  .all-pera{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  .cards{
+    width: 22rem;
+    
+  }
+  .offer-card {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 45rem;
+    /* border: 2px solid red; */
+  }
+
+   /* menu  */
+   .food-item {
+    width: 22rem;
+    gap: 1rem;
+  }
+  .food-item img{
+    width: 6rem;
+    height: 6rem;
+  }
+
+    /* news  */
+    .n-cards{
+      width: 22rem;
+      
+    }
+    .news-card {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 45rem;
+      /* border: 2px solid red; */
+    }
+    
+
+    /* gallery  */
+    .images {
+      width: 14rem;
+     }
+
+     /* contact  */
+     .info img{
+      width: 100%;
+    }
+    .info{
+       padding-left: 1.5rem;
+     
+     }
+
+
+}
+
+@media screen and (max-width:800px) {
+  /* home  */
+     nav ul{
+      display: none;
+     }
+     .burger{
+      display: block;
+    }
+    .slide-bar{
+      display: flex;
+    }
+    /* about  */
+    .about-right{
+      width: 50%;
+    }
+    /* offer  */
+    .cards{
+      width: 18.5rem;
+      
+    }
+    .offer-card {
+  
+      width: 38rem;
+    
+    }
+       /* menu  */
+   .food-item {
+    width: 45%;
+    gap: 1rem;
+  }
+  .f-item-hed{
+    font-size: 1.2rem;
+  }.f-item-pera{
+    font-size: 1rem;
+  }
+  .food-item img{
+    width: 6rem;
+    height: 6rem;
+  }
+  .menu-btn{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+  }
+    /* news  */
+    .n-cards{
+      width: 18.5rem;
+      
+    }
+    .news-card {
+      width: 39rem;
+    }
+
+
+    /* footer  */
+    .foot-hed{
+      font-size: 1rem;
+    }
+    .foot-1{
+      width: 15rem;
+    }
+   
+
+}
+@media screen and (max-width: 715px) {
+     /* gallery  */
+     .images {
+      width: 31%;
+     }
+     .main-gallery{
+      gap: 5px;
+     }
+     .all-pera{
+      width: 26rem;
+     }
+
+     /* about  */
+     .about-right{
+      width: 55%;
+     }
+     .about-pera{
+      line-height: 1rem;
+     }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* home  */
+    .home-hed{
+      font-size: 2.8rem;
+    }
+
+  /* about  */
+  .about-flex {
+   flex-direction: column;
+   width: 100%;
+   gap: 2rem;
+  }
+  .about-left,
+.about-right {
+   width: 100%;
+   
+}
+.about-pera{
+  line-height: 1.5rem;
+}
+  /* offer  */
+
+  .cards{
+    width: 80%;
+    justify-content: center;
+  }
+  .cards img{
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  .offer-card {
+   justify-content: center;
+    width: 100%;
+    gap: 3rem;
+
+  
+  }
+  .big-hed{
+    font-size: 2.4rem;
+  }
+     /* menu  */
+.main-menu{
+  flex-wrap: wrap;
+}
+  .food-item {
+    width: 90%;
+    gap: 1rem;
+  }
+    /* news  */
+    .n-cards{
+      width: 80%;
+      justify-content: center;
+    }
+    .n-cards img{
+      width: 80%;
+      margin: auto;
+      display: block;
+    }
+    .card-text{
+      margin-top: 10px;
+    }
+    .news-card {
+      justify-content: center;
+      width: 100%;
+      gap: 3rem;
+    }
+
+
+    /* gallery  */
+    .main-gallery{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .images{
+      width: 80%;
+    }
+    /* contact  */
+   
+      .contact-form{
+       flex-direction: column;
+       width: 100%;
+       gap: 3rem;
+      }
+      form{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 1rem;
+
+      }
+      .info{
+        width: 100%;
+        padding-left: 0;
+        padding: 0 1rem;
+        box-sizing: border-box;
+      }
+      .info img{
+        width: 90%;
+      }
+
+      /* footer  */
+      .footer-flex{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1rem;
+        box-sizing:border-box;
+        gap: 2rem;
+      }
+      .foot-pera{
+        width: 100%;
+      }
+      .foot-1{
+        width: 100%;
+      }
+
+
+      /* side-bar */
+      .slide-bar{
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      /* home  */
+      .home-pera{
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      /* home  */
+      .home-hed{
+        font-size: 2.3rem;
+      }
+      .big-hed{
+        font-size: 2rem;
+        text-align: center;
+      }
+      .all-pera{
+        width: 95%;
+      }
+      
+      /* offer  */
+      .cards img{
+        width: 100%;
+      }
+
+      /* news  */
+      .n-cards img{
+        width: 100%;
+      }
+    }
+
+
+    @media screen and (min-height: 900px) {
+      .home{
+                  height: 110vh;
+      }
+      nav{
+        color: black;
+      }
+      .bar{
+        background-color: black;
+      }
+    }
+
+
+

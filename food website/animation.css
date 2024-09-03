@@ -1,0 +1,44 @@
+  /* for home text  */
+  .home-hed{
+    animation: home-hed 0.8s ease;
+  }
+  .home-pera{
+    animation: home-pera 0.5s ease;
+    /* animation-delay: 0.3s; */
+  }
+  .home-btn{
+    animation: home-btn 0.4s ease;
+  }
+ @keyframes home-hed {
+   0%{
+    transform: translateY(3rem);
+    opacity: 0;
+  }
+  100%{
+     transform: translateY(0rem);
+     opacity: 1;
+
+   }
+ }
+ @keyframes home-pera {
+   0%{
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  100%{
+     transform: translateY(0rem);
+     opacity: 0.8;
+
+   }
+ }
+ @keyframes home-btn {
+   0%{
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  100%{
+     transform: translateY(0rem);
+     opacity: 1;
+
+   }
+ }
